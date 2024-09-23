@@ -1,0 +1,37 @@
+##Stpe 1:- 
+set up your Lex chatbot
+
+Log in to your AWS Account.
+Navigate to Amazon Lex (type Lex into the search bar of your Console).
+Check your URL in your web browser - ...console.aws.amazon.com/lexv2/...
+
+If you're not seeing "lexv2" in your URL, click on Switch to the new Lex V2 console link in your left-hand menu.
+Select Create bot.
+Select Create a blank bot.
+
+##Stpe 2:- 
+For Bot name, enter BankerBot
+For Description, enter :- Banker Bot to help customer check their balance and make transfers.
+
+##step 3: Under IAM permissions, select Create a role with basic Amazon Lex permissions.
+We'll be using it to call another service called Lambda later!
+Under Children’s Online Privacy Protection Act (COPPA), select No.
+Under Idle session timeout, keep the default of 5 minutes
+     1: Your bot's settings.
+     Select Next.
+Now we're going to play around with your bot's voice.
+Keep the language as English so you can explore Lex's full set of feastures in this project.
+Under Voice interaction, click on the dropdown that says Danielle.
+Click around different voice options to choose your favorite one!
+Two favorites in the NextWork community are Gregory and Ruth :D
+
+      2: Choose your bot's voice.
+      For Intent classification confidence score threshold, keep the default value of 0.40.
+      Select Done.
+Your basic bot structure is now completed. 
+
+
+
+
+
+
