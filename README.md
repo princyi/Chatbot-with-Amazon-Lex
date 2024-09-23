@@ -5,7 +5,7 @@ Amazon Lex is a fully managed service from AWS that allows developers to build c
 
  🔐Why do we need Amazon Lex permissions?
  
-       Amazon Lex needs the permission to call other AWS services on your behalf, later in this project series you'll be integrating Lex with another service called Lambda!
+       Amazon Lex needs the permission to call other AWS services on your behalf, this project  integrating Lex with another service called Lambda!
 
  🔐 What does Idle session timeout mean?
  
